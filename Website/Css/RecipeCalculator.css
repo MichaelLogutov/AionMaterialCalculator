@@ -1,0 +1,538 @@
+﻿a.quality10, a.quality20, a.quality30, a.quality40, a.quality50, a.quality60, a.quality70
+{
+	text-decoration: none;
+}
+
+a.quality10:hover, a.quality20:hover, a.quality30:hover, a.quality40:hover, a.quality50:hover, a.quality60:hover, a.quality70:hover
+{
+	text-decoration: underline;
+}
+
+.quality0
+{
+	color: #C0C0C0;
+}
+
+.quality10
+{
+	color: #333333;
+}
+
+.quality20
+{
+	color: #4AB93B !important;
+}
+
+.quality30
+{
+	color: #1699C4 !important;
+}
+
+.quality40
+{
+	color: #FF9900 !important;
+}
+
+.quality50
+{
+	color: #9238D0 !important;
+}
+
+.quality60, .quality70
+{
+	color: #F17F06 !important;
+}
+
+.recipeListParams td
+{
+	padding-top: 10px;
+}
+
+.item
+{
+	cursor: default;
+}
+
+.item td
+{
+	vertical-align: middle;
+}
+
+.item:hover
+{
+	background-color: #F3F3F3;
+}
+
+.itemLevelPh
+{
+	padding: 0;
+	width: 42px;
+	height: 45px;
+}
+
+.itemLevelPh.lineA
+{
+	background-image: url('/Images/Aion/A.png');
+	background-repeat: repeat-y;
+}
+
+.itemLevelPh.lineB
+{
+	background-image: url('/Images/Aion/B.png');
+	background-repeat: repeat-y;
+}
+
+.itemLevelPh.lineC
+{
+	background-image: url('/Images/Aion/C.png');
+	background-repeat: no-repeat;
+}
+
+.item .itemIcon
+{
+	width: 50px;
+	height: 45px;
+}
+
+.item .itemIcon img
+{
+	width: 41px;
+	height: 41px;
+	vertical-align: middle;
+}
+
+.itemIcon img
+{
+	box-shadow: 2px 2px 5px gray;
+	-moz-box-shadow: 2px 2px 5px gray;
+	-webkit-box-shadow: 2px 2px 5px gray;
+}
+
+.item .itemInfo
+{
+	vertical-align: middle;
+}
+
+.item .itemRowCount
+{
+	width: 30px;
+	text-align: center;
+	padding-right: 8px;
+}
+
+.item .commands
+{
+	vertical-align: middle;
+	padding: 0 10px 0 5px;
+	width: 50px;
+	text-align: right;
+}
+
+.item .commands input
+{
+	width: 50px;
+	height: 30px;
+}
+
+.item .recipeInfo
+{
+	vertical-align: middle;
+	width: 100px;
+}
+
+.recipe
+{
+	width: 100%;
+}
+
+.recipeItem
+{
+	width: 100%;
+}
+
+.recipeItemSelect
+{
+	width: 50px;
+	background: url("/Images/tick-circle-gray.png") no-repeat center center;
+}
+
+.recipeItemButton
+{
+	width: 50px;
+	text-align: center;
+}
+
+.recipeItem.checked .recipeItemSelect
+{
+	background-image: url("/Images/tick-circle.png");
+}
+
+.recipeItem .v
+{
+	font-family: Verdana;
+	font-size: 11px;
+	width: 35px;
+	text-align: center;
+}
+
+.recipeItem .v a
+{
+	color: #333333;
+}
+
+.recipeItem .v2
+{
+	background-color: #F7F7F7;
+}
+
+.recipeItem th.v
+{
+	height: 30px;
+	vertical-align: middle;
+	font-weight: bold;
+	color: Gray;
+	cursor: default;
+}
+
+.total
+{
+	width: 100%;
+}
+
+.totalMats th
+{
+	text-align: center;
+	vertical-align: middle;
+	height: 30px;
+	background-color: #F0F0F0;
+	border: solid 5px white;
+	font-family: Verdana;
+	font-size: 11px;
+	padding: 5px;
+}
+
+td.c
+{
+	text-align: center;
+}
+
+table.totalValues
+{
+	width: 100%;
+}
+
+table.totalValues th
+{
+	padding-top: 10px;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+table.totalValues td
+{
+	padding-top: 10px;
+	font-family: Verdana;
+	font-size: 11px;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+table.totalValues a
+{
+	color: #333333;
+}
+
+.totalValues td.line
+{
+	border-bottom: dotted 1px #C0C0C0;
+}
+
+.recipePane
+{
+	width: 700px;
+}
+
+.resultsPane
+{
+	padding-left: 10px;
+	border-left: solid 2px #F0F0F0;
+}
+
+.resultTable
+{
+	width: 100%;
+	margin-bottom: 50px
+}
+
+.resultTable .itemRow:hover
+{
+	background-color: #F3F3F3;
+}
+
+.resultTable th
+{
+	vertical-align: middle;
+	padding-bottom: 10px;
+}
+
+.resultTable td
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	vertical-align: middle;
+}
+
+.resultTable td.itemIcon
+{
+	width: 50px;
+	vertical-align: middle;
+}
+
+.resultTable td.itemInfo
+{
+	padding-left: 10px;
+	text-align: left;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.resultTable td.amountInfo
+{
+	text-align: right;
+	font-family: Verdana;
+	font-size: 11px;
+	padding: 0px 10px 0px 5px;
+	min-width: 50px;
+}
+
+.subtotal
+{
+	text-align: right;
+	font-family: Verdana;
+	font-size: 11px;
+	padding-top: 10px !important;
+	padding-right: 10px;
+	border-top: 1px dotted #C0C0C0;
+}
+
+.itemInfoEdit
+{
+	cursor: pointer;
+}
+
+.itemInfoEdit:hover
+{
+	background-color: #D0D0D0;
+}
+
+.itemIcon.needless
+{
+	opacity: 0.3;
+	filter: Alpha(Opacity=30);
+}
+
+.itemIcon.needless img
+{
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+.itemInfo.needless .quality0
+{
+	color: #E0E0E0;
+}
+
+.itemInfo.needless .quality10
+{
+	color: gray;
+}
+
+.itemInfo.needless .quality20
+{
+	color: #93B98D !important;
+}
+
+.itemInfo.needless .quality30
+{
+	color: #96B9C4 !important;
+}
+
+.itemInfo.needless .quality40
+{
+	color: #C8B391 !important;
+}
+
+.itemInfo.needless .quality50
+{
+	color: #BB9FD0 !important;
+}
+
+.itemInfo.needless .quality60, .itemInfo.needless .quality70
+{
+	color: #F1D6B8 !important;
+}
+
+.itemInfo.needless *
+{
+	color: gray;
+}
+
+.itemInfoEdit.needless *
+{
+	color: gray;
+	font-weight: normal;
+}
+
+.itemRowCount.needless
+{
+	color: gray;
+	font-weight: normal;
+}
+
+.dashedUnderline
+{
+	border-bottom: dashed 1px gray;
+	text-decoration: none;
+}
+
+.kinah, a.kinah
+{
+	color: #AF9000 !important;
+	font-weight: bold;
+}
+
+.kinah.dashedUnderline
+{
+	border-bottom: dashed 1px #AF9000;
+}
+
+.kinah.positive
+{
+	color: #089F00 !important;
+}
+
+.kinah.negative
+{
+	color: #DF1000 !important;
+}
+
+.topMenu
+{
+	text-align: right;
+	font-family: Verdana;
+	font-size: 11px;
+	color: #333333;
+}
+
+.topMenu a
+{
+	color: gray;
+	text-decoration: none;
+}
+
+.topMenu a:hover
+{
+	text-decoration: underline;
+}
+
+.toggleButton
+{
+	background-color: #F2F2F2;
+	color: #333333;
+	cursor: pointer;
+	
+	border: none;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+	box-shadow: 1px 1px 3px gray;
+	-moz-box-shadow: 1px 1px 3px gray;
+	-webkit-box-shadow: 1px 1px 3px gray;
+}
+
+.toggleButton.checked
+{
+	background-color: #F68D2D;
+	color: white;
+	font-weight: bold;
+	
+	margin: 1px 0px 0px 1px;
+	
+	box-shadow: 0px 0px 3px #F68D2D;
+	-moz-box-shadow: 0px 0px 3px #F68D2D;
+	-webkit-box-shadow: 0px 0px 3px #F68D2D;
+}
+
+.topMenu .sel
+{
+	font-weight: bold;
+}
+
+a.selectSkillButton
+{
+	color: #333333;
+	text-decoration: none;
+	
+	display: block;
+	padding: 10px;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+a.selectSkillButton:hover
+{
+	text-decoration: underline;
+	
+	text-shadow: 0px 0px 5px #F68D2D;
+	-moz-text-shadow: 0px 0px 5px #F68D2D;
+	-webkit-text-shadow: 0px 0px 5px #F68D2D;
+}
+
+label.lightUp
+{
+	text-shadow: 0px 0px 3px #F68D2D;
+	-moz-text-shadow: 0px 0px 3px #F68D2D;
+	-webkit-text-shadow: 0px 0px 3px #F68D2D;
+}
+
+label.lightUp.quality20
+{
+	text-shadow: 0px 0px 2px #4AB93B;
+	-moz-text-shadow: 0px 0px 2px #4AB93B;
+	-webkit-text-shadow: 0px 0px 2px #4AB93B;
+}
+
+label.lightUp.quality30
+{
+	text-shadow: 0px 0px 2px #1699C4;
+	-moz-text-shadow: 0px 0px 2px #1699C4;
+	-webkit-text-shadow: 0px 0px 2px #1699C4;
+}
+
+label.lightUp.quality40
+{
+	text-shadow: 0px 0px 2px #FF9900;
+	-moz-text-shadow: 0px 0px 2px #FF9900;
+	-webkit-text-shadow: 0px 0px 2px #FF9900;
+}
+
+label.lightUp.quality50
+{
+	text-shadow: 0px 0px 2px #9238D0;
+	-moz-text-shadow: 0px 0px 2px #9238D0;
+	-webkit-text-shadow: 0px 0px 2px #9238D0;
+}
+
+label.lightUp.quality60, label.lightUp.quality70
+{
+	text-shadow: 0px 0px 2px #F17F06;
+	-moz-text-shadow: 0px 0px 2px #F17F06;
+	-webkit-text-shadow: 0px 0px 2px #F17F06;
+}

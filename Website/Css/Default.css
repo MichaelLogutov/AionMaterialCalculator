@@ -1,0 +1,407 @@
+﻿definitions
+{
+	%colorNormal% = #333333;
+	%colorBg% = #FFFFFF;
+	%fontNormal% = Georgia;
+	%fontSmall% = Verdana;
+	%colorHigh% = #214FB5;
+	%colorHigh2% = #F68D2D;
+	%colorHigh3% = #D10600;
+	%colorHigh4% = #51A41E;
+	%colorHigh5% = #851885;
+	%colorLow% = gray;
+	%colorLow2% = #C2C2C2;
+	%colorLow3% = #F2F2F2;
+	%colorLow4% = #E0E0E0;
+	%colorError% = #D10600;
+	%fontSizeNormal% = 16px;
+	%fontSizeSmall% = 11px;
+}
+
+html, body
+{
+	font-family: %fontNormal%;
+	font-size: %fontSizeNormal%;
+	background: %colorLow3%;
+	color: %colorNormal%;
+	
+	height: 100%;
+	min-height: 100%;
+}
+
+h1, h2, h3
+{
+	font-weight: normal;
+	
+	text-shadow: 2px 2px 3px %colorLow2%;
+	-moz-text-shadow: 2px 2px 3px %colorLow2%;
+	-webkit-text-shadow: 2px 2px 3px %colorLow2%;
+}
+
+#aspnetForm
+{
+	height: 100%;
+	min-height: 100%;
+}
+
+.comment
+{
+	color: %colorLow%;
+	font-family: %fontSmall%;
+	font-size: %fontSizeSmall%;
+}
+
+.smallText
+{
+	color: %colorNormal%;
+	font-family: %fontSmall%;
+	font-size: %fontSizeSmall%;
+}
+
+.error
+{
+	background-color: %colorError%;
+	color: %colorBg%;
+}
+
+.error a
+{
+	color: %colorBg%;
+}
+
+.validatorError
+{
+	color: %colorBg%;
+	background: transparent url(/Images/ve_corner.png) no-repeat scroll -3px 4px;
+	padding: 0px 0px 0px 10px;
+}
+
+.validatorError .content
+{
+	background-color: %colorError%;
+	padding: 5px;
+	
+	font-family: %fontSmall%;
+	font-size: %fontSizeSmall%;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.ui-dialog-titlebar
+{
+	display: none;
+}
+
+.ui-dialog-buttonpane button
+{
+	min-width: 75px;
+}
+
+.ui-widget-overlay
+{
+	background: %colorNormal%;
+	opacity: .3;
+	filter: Alpha(Opacity=30);
+}
+
+.ui-widget-shadow
+{
+	margin: -8px 0 0 -8px;
+	padding: 8px;
+	background: #aaaaaa;
+	opacity: .3;
+	filter: Alpha(Opacity=30);
+	
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+.ui-dialog
+{
+	background-color: %colorBg%;
+	
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	
+	box-shadow: 3px 3px 5px %colorLow%;
+	-moz-box-shadow: 3px 3px 5px %colorLow%;
+	-webkit-box-shadow: 3px 3px 5px %colorLow%;
+}
+
+.ui-tabs-selected a
+{
+	background: %colorLow3%;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+input[type="text"], input[type="password"], textarea
+{
+	border: solid 1px %colorLow2%;
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+
+.formField
+{
+	margin: 10px 0px 5px 0px;
+}
+
+.formField .title
+{
+	display: block;
+	margin: 0px 0px 1px 2px;
+}
+
+.formField .required
+{
+	color: %colorError%;
+	padding-left: 5px;
+}
+
+.formField .comment
+{
+	display: block;
+	font-family: %fontSmall%;
+	font-size: %fontSizeSmall%;
+	color: %colorLow%;
+}
+
+
+.zoomPanel
+{
+	border: solid 5px #D0D0D0;
+	background: white;
+	
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	
+	padding: 5px;
+	overflow: hidden;
+}
+
+.pager, .pager a
+{
+	color: %colorNormal%;
+	text-decoration: none;
+}
+
+.pager a:hover
+{
+	text-decoration: underline;
+}
+
+.pagerPage
+{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+
+.pagerDisabled
+{
+	color: %colorLow2% !important;
+	cursor: default;
+	text-decoration: none !important;
+}
+
+.pagerCurrentPage
+{
+	font-weight: bold;
+	background-color: %colorLow4%;
+	text-decoration: none;
+}
+
+a.hoverUnderline
+{
+	text-decoration: none;
+}
+
+a.hoverUnderline:hover
+{
+	text-decoration: underline;
+}
+
+
+/* ---------------------------------------------
+	Site specific
+--------------------------------------------- */
+.body
+{
+	width: 1100px;
+	height: 100%;
+	min-height: 100%;
+	
+	margin: 0 auto;
+}
+
+.bodyContent
+{
+	background-color: %colorBg%;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.bodyPaddingTop, .bodyPaddingBottom
+{
+	min-height: 10px;
+	font-size: 1px;
+}
+
+.content
+{
+	padding: 20px;
+}
+
+
+.headerBar
+{
+	background-color: %colorLow3%;
+}
+
+.langBar
+{
+	text-align: right;
+	font-family: %fontSmall%;
+	font-size: 10px;
+}
+
+.langBar .sel
+{
+	font-weight: bold;
+}
+
+.sVal
+{
+	color: %colorHigh3%;
+}
+
+.gBar
+{
+	overflow: hidden;
+	background-color: transparent;
+}
+
+.gBarTitle
+{
+	float: left;
+	width: 300px;
+}
+
+.gBar:hover
+{
+	background-color: %colorLow3%;
+}
+
+.gBar1, .gBar2, .gBar3, .gBar4, .gBar5
+{
+	float: left;
+	margin-top: 6px;
+	font-size: 8px;
+}
+
+.gBar1
+{
+	background-color: %colorHigh%;
+}
+
+.gBar2
+{
+	background-color: %colorHigh4%;
+}
+
+.gBar3
+{
+	background-color: %colorHigh2%;
+}
+
+.gBar4
+{
+	background-color: %colorHigh3%;
+}
+
+.gBar5
+{
+	background-color: %colorHigh5%;
+}
+
+.gBarText
+{
+	padding-top: 0px;
+	margin-top: 0px;
+	font-family: %fontSmall%;
+	font-size: 10px;
+}
+
+.dn
+{
+	display: none;
+}
+
+.fileUpload
+{
+	background-color: %colorHigh2%;
+	color: %colorBg%;
+	
+	font-family: %fontSmall%;
+	font-size: %fontSizeSmall%;
+	
+	width: 100px;
+	padding: 10px 0 10px 0;
+	vertical-align: middle;
+	text-align: center;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+	box-shadow: 1px 1px 3px %colorLow%;
+	-moz-box-shadow: 1px 1px 3px %colorLow%;
+	-webkit-box-shadow: 1px 1px 3px %colorLow%;
+}
+
+/* ------------------------------------------------------------
+	Tooltip
+------------------------------------------------------------ */
+.tp
+{
+}
+
+#tooltip, .tooltip
+{
+	color: %colorNormal%;
+	font-family: %fontSmall%;
+	font-size: %fontSizeSmall%;
+	
+	position: absolute;
+	z-index: 3000;
+	
+	border: 1px solid %colorLow%;
+	background-color: %colorBg%;
+	padding: 5px;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+	box-shadow: 2px 2px 5px %colorLow%;
+	-moz-box-shadow: 2px 2px 5px %colorLow%;
+	-webkit-box-shadow: 2px 2px 5px %colorLow%;
+}
+
+#tooltip h3, #tooltip div
+{
+	margin: 0;
+}

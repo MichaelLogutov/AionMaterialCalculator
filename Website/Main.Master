@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Website.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+	<title></title>
+	<asp:Literal runat="server" ID="headIncludes" Mode="PassThrough" EnableViewState="false"></asp:Literal>
+</head>
+<body>
+	<form id="fM" runat="server">
+	<asp:Panel runat="server" ID="panelOldBrowser" CssClass="error" Visible="false" Style="padding: 20px">
+		<asp:Localize ID="strOldBrowserWarning" runat="server">
+		</asp:Localize>
+	</asp:Panel>
+	<noscript>
+		<div class="error" visible="false" style="padding: 20px">
+			<asp:Localize ID="strNoJavaScriptWarning" runat="server">
+			</asp:Localize>
+		</div>
+	</noscript>
+	<table class="body" cellpadding="0" cellspacing="0">
+		<tr>
+			<td class="bodyPaddingTop">
+				&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td class="bodyContent">
+				<div class="content">
+					<asp:ContentPlaceHolder ID="cD" runat="server">
+					</asp:ContentPlaceHolder>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="bodyPaddingBottom">
+				&nbsp;
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
